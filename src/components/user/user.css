@@ -1,0 +1,44 @@
+.userContainer{
+    width: 80%;
+    margin: 70px auto 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    
+}
+.userInfo{
+    width: 47%;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(201, 199, 199);
+    align-items: center;
+      box-shadow: 2px 8px 8px rgb(160, 145, 175);
+
+}
+.userImg{
+    width: 30%;
+
+    /* border: 1px solid blue; */
+}
+.userImg img{
+    width: 130px;
+    height: 125px;
+
+}
+.userDetails{
+    width: 63%;
+    /* border: 1px solid blue; */
+}
+
+.userDetails >p{
+    margin-top: 10px;
+}
+.userDetails :first-child{
+    margin-top: 20px;
+}
+.userDetails :last-child{
+    margin-bottom: 20px;
+}
